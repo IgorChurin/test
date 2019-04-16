@@ -3,7 +3,7 @@
 myImage.onclick = function() {        //функция смены картинки
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/header.png') {
-      myImage.setAttribute ('src','images/medal-test.png');
+      myImage.setAttribute ('src','images/medal-test.PNG');
     } else {
       myImage.setAttribute ('src','images/header.png');
     }
